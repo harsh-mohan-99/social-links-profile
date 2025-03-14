@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Social links profile</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    @font-face{
+      src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+      font-family: inter-variable;
+    }
+    @font-face {
+      font-family: inter-bold;
+      src: url(assets/fonts/static/Inter-Bold.ttf);
+    }
+    @font-face {
+      font-family: inter-regular;
+      src: url(assets/fonts/static/Inter-Regular.ttf);
+    }
+    @font-face {
+      font-family: inter-semibold;
+      src: url(assets/fonts/static/Inter-SemiBold.ttf);
+    }
+    body{
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background:  hsl(0, 0%, 8%);
+    }
+    main{
+      width: 100vw;
+      height: 95vh;
+    }
+    div.container{
+      width: 350px;
+      height: 535px;
+      margin: 80px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: hsl(0, 0%, 12%);
+      border-radius: 10px;
+    }
+    img{
+      margin-top: 10%;
+      width: 75px;
+      border-radius: 50%;
+    }
+    h1{
+      color: hsl(0, 0%, 100%);
+      font-size: 22px;
+      margin-top: 25px;
+      font-family: inter-regular;
+    }
+    p.location{
+      color: hsl(75, 94%, 57%);
+      font-size: 13px;
+      margin-top: 10px;
+      font-family: inter-semibold;
+    }
+    p.post{
+      color: rgba(255, 255, 255, 0.911);
+      font-size: 13px;
+      margin-top: 25px;
+      font-family: inter-variable;
+    }
+    ul{
+      list-style: none;
+      text-align: center;
+      margin-top: 2%;
+      width: 79%;
+      height: 100%;
+    }
+    li{
+      margin-top: 6%;
+      font-size: 12px;
+      font-weight: 400;
+      color: hsl(0, 0%, 100%);
+      padding: 4% 5%;
+      border-radius: 5px;
+      background:hsl(0, 0%, 20%);
+      font-family: inter-regular;
+      font-weight: 600;
+    }
+    footer {
+      height: 30px;
+      font-size: 11px;
+      text-align: center;
+      color: white;
+    }
+
+    footer a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <img src="assets/images/avatar-jessica.jpeg" alt="avatar-image">
+      <h1>Jessica Randall</h1>
+      <p class="location">London, United Kingdom</p>
+      <p class="post"> "Front-end developer and avid reader."</p>
+
+      <ul>
+        <li>GitHub</li>
+        <li>Frontend Mentor</li>
+        <li>LinkedIn</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Harsh sahni</a>.
+  </footer>
+</body>
+
+</html>
